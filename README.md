@@ -1,2 +1,2 @@
-# BlogForMyLearn
-记录我的一些经历
+#SpringBoot的日常
+###用idea搭建环境
