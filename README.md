@@ -3,8 +3,10 @@
 1、整合mybatis的配置文件开发
 首先：启动类上要有@mapperScan("com.mapper")注解来扫面mapper接口
 然后：在yml配置文件中需要配置mybatis的mapper.xml的location，注意，这里新建文件一定要是xml，因为idea的xml是有后缀的，而java文件是没有后缀的。
+
 2、springBoot的热部署，在pom中依赖devTools：
-     <dependency>
+
+​     <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
@@ -164,6 +166,24 @@ public class TestRedis {
     }
 }
 ```
+
+# 3、oracle笔记
+
+### 1）基本的使用
+
+```java
+//安装完成后可以找到sql plus来进行操作数据库
+//默认登录的用户名是system
+//其中有一个scott用户，里面有四张表可以练习
+如何解锁：
+sql> conn system/root as sysdba  //账户名/密码以管理员登录
+sql> alter user scott account lock //解锁账户
+sql> alter user scott identified by root //修改密码为root
+```
+
+###2）
+
+
 
 
 
