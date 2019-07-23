@@ -1,0 +1,6 @@
+-------------二零一九年-------------
+7/22--周一：
+	1、fastjson的使用（对象之间的转换，json串转JSONObject，json串转实体类对象）
+	2、restTemplate 的了解，三种使用方式，主要使用PostForObject（url，requestBody，String.class）;
+	3、hibernate 的一个坑，entitymanager 的原生sql语句返回的结果如何封装成对象。
+	4、java中的枚举的使用

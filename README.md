@@ -1,8 +1,8 @@
 # 1、SpringBoot的日常
-### 用idea搭建环境
+### 1、用idea搭建 springBoot  +  mybatis  环境
 1、整合mybatis的配置文件开发
 首先：启动类上要有@mapperScan("com.mapper")注解来扫面mapper接口
-然后：在yml配置文件中需要配置mybatis的mapper.xml的location，注意，这里新建文件一定要是xml，因为idea的xml是有后缀的，而java文件是没有后缀的。
+然后：在yml配置文件中需要配置mybatis的mapper.xml的location，注意，这里新建文件一定要是xml，因为idea的xml是有后缀的，而java文件是没有后缀的（ idea 的小坑）。
 
 2、springBoot的热部署，在pom中依赖devTools：
 
@@ -35,7 +35,16 @@
       configuration:
         map-underscore-to-camel-case: true
 
+###2、springboot 的日志
 
+```
+//yml文件中设置的logging的输出位置和输出的级别，和可以使用logback.xml 的配置文件来设置
+logging:
+  file: C:\\Users\\安邦兴国\\Desktop\practise_log.log
+  level:
+    ROOT: WARN
+    com.hengbao: DEBUG
+```
 
 
 
