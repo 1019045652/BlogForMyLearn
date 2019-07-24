@@ -1,4 +1,9 @@
 -------------二零一九年-------------
+7/23--周三：
+	1、centos 7 的java环境的安装
+	2、防火墙端口的设置
+
+
 7/22--周一：
 	1、fastjson的使用（对象之间的转换，json串转JSONObject，json串转实体类对象）
 	2、restTemplate 的了解，三种使用方式，主要使用PostForObject（url，requestBody，String.class）;
